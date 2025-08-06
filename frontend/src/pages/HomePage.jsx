@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import {Link} from "react-router"
 import {  CheckCircleIcon, MapIcon, MapPinIcon, UserPlusIcon, UsersIcon } from 'lucide-react';
 import FriendCard, { getLanguageFlag } from '../components/FriendCard.jsx';
-import NoFriendsFound from '../components/NofriendsFound.jsx';
+import NoFriendsFound from '../components/NoFriendsFound.jsx';
 import { capitalize } from '../lib/utils.js';
 
 const HomePage = () => {
